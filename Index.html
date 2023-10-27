@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="icon" type="image/x-icon" href="./Static_Files/Icon.ico" />
+    <title>Tic-Tac-Toe Game</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>THIS GAME IS DEVELOPED BY <span>SAGNIK SANYAL</span></h1>
+        </nav>
+    </header>
+
+    <main>
+        <div class="leftBox">
+            <!-- Cross & Circles in the Box -->
+            <div class="smallBoxes" id="topLeft"><span class="boxtext"></span></div>
+            <div class="smallBoxes" id="topCenter"><span class="boxtext"></span></div>
+            <div class="smallBoxes" id="topRight"><span class="boxtext"></span></div>
+            <div class="smallBoxes" id="middleLeft"><span class="boxtext"></span></div>
+            <div class="smallBoxes" id="middleCenter"><span class="boxtext"></span></div>
+            <div class="smallBoxes" id="middleRight"><span class="boxtext"></span></div>
+            <div class="smallBoxes" id="bottomLeft"><span class="boxtext"></span></div>
+            <div class="smallBoxes" id="bottomCenter"><span class="boxtext"></span></div>
+            <div class="smallBoxes" id="bottomRight"><span class="boxtext"></span></div>
+        </div>
+        <div class="rightBox">
+            <h1>Play <span>TIC-TAC-TOE</span></h1>
+            <span class="info">Turn for X</span>
+            <button id="reset" role="button"><span class="text">RESET!</span></button>
+            <div class="winnerGif">
+                <img src="Static_Files/Winner.gif" alt="">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h3>Designed & Developed in <span>OCTOBER 2023</span></h3>
+    </footer>
+    <script src="Script.js"></script>
+</body>
+</html>
